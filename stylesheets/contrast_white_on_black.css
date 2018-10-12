@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document - contrast_white_on_black.css */
+body { 
+	background-color: #000; /*#e6e6e6;*/
+	color: #fff;
+}
+
+/* Links ---------------------- */
+a { 
+	color: #fff;
+}
+
+a:link, a:visited {
+	color: #fff;
+}
+
+a:hover, a:active {
+	background-color: #c41f95;
+	color: #fff;
+}
+
+.mainHeader h1 {
+	color: #fff;
+}
+
+.mainHeader p {
+	color: #fff;
+}
+
+.mainHeader nav {
+	background-color: #000000;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #fff;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, 
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #c41f95;
+	color: #fff;
+}
+
+.first-content, .second-content, .third-content, .fourth-content{
+	background-color: #000;
+}
+
+.first-sideBar, .second-sideBar, .third-sideBar, .fourth-sideBar {
+	background-color: #000;
+}
+
+.mainFooter {
+	background: #000; /* For browsers that do not support gradients */    
+}
+
+.mainFooter ul {
+	color: #fff;
+}
+
+.mainFooter a {
+	color: #000;
+}
+
+.mainFooter a:hover {
+	color: #000;
+}
