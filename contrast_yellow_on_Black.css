@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document - contrast_yellow_on_black.css */
+body { 
+	background-color: #000; /*#e6e6e6;*/
+	color: #FFFF00; 
+}
+
+/* Links ---------------------- */
+a { 
+	color: #FFFF00;
+}
+
+a:link, a:visited {
+	color: #FFFF00;
+}
+
+a:hover, a:active {
+	background-color: #c41f95;
+	color: #FFFF00;
+}
+
+.mainHeader h1 {
+	color: #FFFF00;
+}
+
+.mainHeader p {
+	color: #FFFF00;
+}
+
+#braille {
+	color: #FFFF00;
+}
+
+.mainHeader nav {
+	background-color: #000000;
+}
+
+.mainHeader nav a:link, .mainHeader nav a:visited {
+	color: #FFFF00;
+}
+
+.mainHeader nav a:hover, .mainHeader nav a:active, 
+.mainHeader nav .active a:link, .mainHeader nav .active a:visited {
+	background-color: #c41f95;
+	color: #FFFF00;
+}
+
+.first-content, .second-content, .third-content, .fourth-content{
+	background-color: #000;
+}
+
+.mainFooter {
+	background: #000; /* For browsers that do not support gradients */    
+}
+
+.mainFooter ul {
+	color: #fff;
+}
+
+.mainFooter a {
+	color: #FFFF00;
+}
+
+.mainFooter a:hover {
+	color: #FFFF00;
+}

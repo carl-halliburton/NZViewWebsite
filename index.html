@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<!-- Set the viewport width to device width for mobile -->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<title>NZ View</title>
+	<!-- Included Files -->
+	<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+
+	<link title="default" type="text/css" rel="stylesheet" href="stylesheets/contrast_default.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/common.css">
+	<link title="yellowBlack" type="text/css" rel="alternate stylesheet" href="stylesheets/contrast_yellow_on_Black.css">	
+	<link title="whiteBlack" type="text/css" rel="alternate stylesheet" href="stylesheets/contrast_white_on_black.css">	
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+    <script src="scripts/chgContrast.js"></script>
+	<script src="scripts/chgTextSize.js"></script>
+</head>
+
+<body role="document" class="body">
+	<ul>	
+		<li id="skipContent"><a role="link" title="For screen reader users" href="#mainContent">Skip to main content</a></li> <!--For screen readers-->
+		<li id="accessibilityOpLink">
+			<label><strong>Change Contrast</strong></label><br>
+			<form>
+				<input type="submit" onclick="increaseSize()" name="theme" value="Increase Size" id="increaseText">
+				<input type="submit" onclick="decreaseSize()" name="theme" value="Decrease Size" id="decreaseText">
+			</form>
+			<form>
+				<input type="submit" onclick="switch_style('default');return false;" name="theme" value="Reset" id="default">
+				<input type="submit" onclick="switch_style('yellowBlack');return false;" name="theme" value="Yellow/Black" id="yellowBlack">
+				<input type="submit" onclick="switch_style('whiteBlack');return false;" name="theme" value="White/Black" id="whiteBlack">
+			</form>
+		</li>
+	</ul>
+	<header class="mainHeader">
+		<img src="img/NZ View Logo.jpg" alt="NZ VIew Logo">
+		<h1>NZ View Inc</h1>
+		<p>Vision Impaired Empowering Women<p>
+	</header>
+	
+	<div id="mainContent">
+		<div class="content">
+			<article role="article" class="first-content">
+				<header>
+					<h2>Who We Are?</h2>
+				</header>
+				<p>
+VIEW is an acronym for Vision Impaired Empowering Women and is a support group for New Zealand women who are blind or have low vision.   Our members are a diverse group of independent and motivated women with an aspiration for a fully accessible society that inspires and motivates women of all ages to reach their fullest potential.				</p>
+			</article>
+			<hr>
+			<article role="article" class="second-content">
+				<header>
+					<h2>What We Do?</h2>
+				</header>	
+				<p>
+Lorem ipsum dolor sit amet, in vidit nostrud qui, nonumes disputando intellegebat et ius. Has no quot dicant reformidans. Qui te diceret volutpat, in sea vidit illud. Cum eu tibique nominati, nibh quidam pro no. Te ius animal scripta. Possim perpetua consulatu vel eu, affert copiosae at sea. Mei similique vulputate cu, reque adipisci mea ei.
+Te enim fugit melius sed. Delenit accusamus vix et. Vis nibh quodsi ad, eleifend salutandi eos id, et case aeque splendide vim. Ridens facilisis neglegentur nec cu, accumsan assueverit ea sed. Ut sint dicant pro, in ius consul repudiare elaboraret. Ea tamquam probatus ocurreret his.				</p>
+				</p>
+			</article>
+			<hr>
+			<article role="article" class="third-content">
+				<header>
+					<h2>Local Groups</h2>
+				</header>	
+				<p>
+Below is a list of current local groups, all queries contact our NatioanL Secretary.
+					<ul>
+						<li>Wellington</li>
+						<li>Auckland</li>
+						<li>New Plymoth</li>
+						<li>Rotorua</li>
+					</ul>
+				</p>
+			</article>
+			<hr>
+			<article role="article" class="fourth-content">
+				<header>
+					<h2>Fundraising Calender</h2>
+				</header>	
+				<p>
+			 	<img src="img/View_Calender.jpg" alt="Calender front cover">
+Price: $25.00<br><a role="link" target="_blank" href="https://blindfoundation.org.nz/shop/stationery-and-labelling/large-print/birthday-calendar/">Purchase from the RNZFB On-line shop</a><br>
+This calender was created as both a fund raising tool and a medium to educate the public on blindness issues.
+They are spiral bound along the top edge and have a hook so they can be conveniently hung on the wall and each paged flipped as the months go by.
+Please note this is not a calendar with dates and days and can be used year in year out.  It was created by View Member Tina.
+				</p>
+			</article>
+			<hr>
+		</div>
+	</div>
+		<aside role="complementary" class="first-sideBar">
+		<article role="article">
+			<header>
+				<h3>Contact Us</h3>
+			</header>
+			<ul>
+				<li><strong>Email</strong><br>nzviewinc@gmail.com</li>
+				<li><strong>Phone</strong><br>07 348 2765</li>
+				<li><strong>Postal Address</strong><br>PO Box 1395,<br>Rotorua 3040</li>
+			</ul>
+		</article>
+	</aside>
+		<aside role="complementary" class="second-sideBar">
+		<article role="article">
+			<header>
+				<h3>Charity Number</h3>
+			</header>
+				<ul>
+					<li>CC39523</li>
+				</ul>
+		</article>
+	</aside>
+	<aside role="complementary" class="third-sideBar">
+		<article role="article">
+		<header>
+			<h3>Associated Organizations</h3>
+		</header>
+		<ul>
+			<li>
+				<a role="link" target="_blank" href="https://blindfoundation.org.nz/">Blind Foundation</a>
+			</li>
+			<li>
+				<a role="link" target="_blank" href="http://abcnz.org.nz/">Blind Citizens NZ</a>
+			</li>
+			<li>
+				<a role="link" target="_blank" href="https://www.deafblind.org.nz/">Death Blind Nd</a>
+			</li>
+			<li>
+				<a role="link" target="_blank" href="https://retina.org.nz/">Retina NZ</a>
+			</li>
+			<li>
+				<a role="link" target="_blank" href="https://blindsport.kiwi/">Blind Sport</a>
+			</li>
+		</ul>
+		</article>
+	</aside>
+	<footer class="mainFooter">
+		<ul>
+			<li>&copy; Copyright 2018-<script>document.write(new Date().getFullYear())</script>, </li>
+			<li>&nbsp;NZ View Inc&nbsp;</li>
+			<li>Hosted by <a target='_blank' href="">&nbsp;</a></li>
+			<li>Created by <a target='_blank' href='http://www.carlhalliburton.co.nz//'>Carl Halliburton</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
+
